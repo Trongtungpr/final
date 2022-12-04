@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "email": "trongtungpr@gmail.com",
+      "password": "$2a$10$aG8Ah3DSJ3y/k.biBO1n1uzzVRMVRY0wnXt37ay4fGtL7aKDDMS1i",
+      "createdAt": "2022-10-31T13:00:52.766Z",
+      "updateAt": "2022-10-31T13:00:52.766Z",
+      "id": 1
+    },
+    {
+      "email": "trongtung@gmail.com",
+      "password": "$2a$10$u/Xo7a6Jq4.xRAjmeRq87ufstOPwN00T5ySPUdCOSuRQh/bi5SYHu",
+      "createdAt": "2022-10-31T13:09:27.099Z",
+      "updateAt": "2022-10-31T13:09:27.099Z",
+      "id": 2
+    },
+    {
+      "email": "trongtungdn@gmail.com",
+      "password": "$2a$10$U8H2mKcoeSs1qeHhGje2j.obPA9QJ2YutYL.8PpXmS3NjbMGIAKNK",
+      "createdAt": "2022-11-10T13:02:25.212Z",
+      "updateAt": "2022-11-10T13:02:25.212Z",
+      "id": 3
+    },
+    {
+      "email": "phuocanhtts@hmail.com",
+      "password": "$2a$10$NbG9TChjEhvSblrYpB3f5.PBv/IMgHYR/hL21mxyi3yz4/jp0oUaG",
+      "id": 4
+    },
+    {
+      "email": "phuocanh@hmail.com",
+      "password": "$2a$10$TVtDkIgleVQhYY41iHcpUOwii4iBGy3qtiTH.u7G.aaOxiQu4tnzu",
+      "id": 5
+    },
+    {
+      "email": "phuocanhtts@gmail.com",
+      "password": "$2a$10$TBFgLIohVjyHwP6Eo.Vyy.R6t1XMoAiNUnR7yfVmelEM6AGJUOdIe",
+      "id": 6
+    },
+    {
+      "email": "phuocanh@gmail.com",
+      "password": "$2a$10$oImnJg5JdDCMlwYaMaNZL.OzWPQ7SE2.bUnDAJsWAnIipwLbVqrYS",
+      "id": 7
+    },
+    {
+      "email": "panh@gami.com",
+      "password": "$2a$10$AddgCk6gyU2iw70IGoegVuyVzvlU8hjISk9pyKqlegNbVVglYei5i",
+      "id": 8
+    },
+    {
+      "email": "panh@gmail.com",
+      "password": "$2a$10$KO8yULe906vxt1WkVOSAyu2Uke7L.ZSE.04A12Yo.P8n9/dSxOFTW",
+      "id": 9
+    },
+    {
+      "email": "panh123@gmail.com",
+      "password": "$2a$10$CCaeY9OcUafdiQX0lgJDdOCZsBHtD3eipGq2sEQSE1Epiy89EAMPu",
+      "id": 10
+    },
+    {
+      "email": "panh1@gmail.com",
+      "password": "$2a$10$BFQYr4hzkLLifUT/525PA.PIs3ga4RsBn/duGM9H2N/NJK7Rj/fxm",
+      "id": 11
+    },
+    {
+      "email": "anh999@gmail.com",
+      "password": "$2a$10$Gs6ntM33HLwcaQD59Wgkyu15TUEa3CiYg.GB2gTaKYSxGankFlzb2",
+      "id": 12
+    },
+    {
+      "email": "anhtts97@gmail.com",
+      "password": "$2a$10$XVzvWik2XJxfjkZvOMl/5.mu807xveqzkdMukuWnYjq5DedW5zoki",
+      "id": 13
+    },
+    {
+      "email": "anhtts1997@gmail.com",
+      "password": "$2a$10$oz9H5Xk5lJ6tt8TLn6KDD.vkE8yp2IYv03VFQkm1FqMjxc7lKDD/W",
+      "id": 14
+    },
+    {
+      "email": "dpa@gmail.com",
+      "password": "$2a$10$LljleNHm82ujTaQYFtbgu.HXgY5eJhI6tB8Ah1xVWrgSl35vCffji",
+      "id": 15
+    },
+    {
+      "email": "dpa1997@gmail.com",
+      "password": "$2a$10$3sqXNy653ozZF5xFL8prQ.YSwSFKPyXuSaXtnYKnmcpKVkULAdM6u",
+      "id": 16
+    },
+    {
+      "email": "anhdp@gmail.com",
+      "password": "$2a$10$wDHi.9KlufHaSy0hDD0u/uDXylQZYcqOlAee5IAH6WZlbf9i1p9qe",
+      "id": 17
+    },
+    {
+      "email": "anhdp999999@gmail.com",
+      "password": "$2a$10$JnNT/aZ8knzA2zx4IY2gh.aKbScqQfMcRD6cdxH1VAOkBcAWfccBm",
+      "id": 18
+    },
+    {
+      "email": "anhdp9999999@gmail.com",
+      "password": "$2a$10$D1OxhrwGtyy5GcX1D55LPOijumaoSX7bvxRv.jzNX1U2YA0OAVFWu",
+      "id": 19
+    },
+    {
+      "email": "anhtts6789@gmail.com",
+      "password": "$2a$10$LDWaje/TooZl5kucAb8r8uDpTy4xcDo6iV2h7US4On8A/RlNgekJK",
+      "id": 20
+    },
+    {
+      "email": "anhtts56789@gmail.com",
+      "password": "$2a$10$VHkkfWAt2NPK/CTrY.VSae.N9WEpjGb8Lrp6SqdC7PN7FYQH0MWde",
+      "id": 21
+    },
+    {
+      "email": "letung1@gmail.com",
+      "password": "$2a$10$XdXTLkXoyZAzWmDDgFpTdOYmOgfdNXdDCSRxKkcpSRD8W77uVold6",
+      "id": 26
+    },
+    {
+      "email": "truong@gmail.com",
+      "password": "12345678",
+      "isStaff": false,
+      "isAdmin": false,
+      "createdAt": "2022-12-04T17:44:46.139Z",
+      "updateAt": "2022-12-04T17:44:46.139Z",
+      "id": 27
+    },
+    {
+      "email": "tungle@gmail.com",
+      "password": "$2a$10$gBYIAbhEBtDHzStFgFKJh.p/asVFehkGJ9v6BHm6pSjPTxWasXMp6",
+      "id": 28
+    }
+  ],
+  "product": [
+    {
+      "id": "448ec1cd-1403-4006-bb98-574176627f3d",
+      "name": "BELL PEPPER",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-1.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+      "name": "STRAWBERRY",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-2.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "90114e33-aa30-4764-8587-bd3f9a3eda64",
+      "name": "GREEN BEANS",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-3.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "79d79917-c9af-4806-ab0e-587a2bf63758",
+      "name": "PURPLE CABBAGE",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-4.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "72cb1145-c681-495b-a4da-248cebdb6bf0",
+      "name": "TOMATOE",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-5.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+      "name": "BROCOLLI",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-6.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "00d09550-bda6-4328-8c82-65e5a4f9bcce",
+      "name": "CARROTS",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-7.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+      "name": "FRUIT JUICE",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-8.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+      "name": "ONION",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-9.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+      "name": "APPLE",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-10.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+      "name": "GARLIC",
+      "price": "$120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-11.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+      "name": "CHILLI",
+      "price": "$95.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-12.jpg",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "3ff15b36-a038-4de9-94df-6a9a9b49f343",
+      "name": "WATERMELON",
+      "price": "$85.00",
+      "cart": "",
+      "img": "https://media.istockphoto.com/id/937363912/photo/whole-and-slices-watermelon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jYBgMThOJ1nPe6QuJA9bp_IR9VgJy3quEUa5Y2l4imQ=",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+      "name": "BANANA",
+      "price": "$75.00",
+      "cart": "",
+      "img": "https://media.istockphoto.com/id/1184345169/photo/banana.jpg?s=612x612&w=0&k=20&c=NdHyi6Jd9y1855Q5mLO2tV_ZRnaJGtZGCSMMT7oxdF4=",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "234e2f86-7b81-4571-bee9-546a8785d6f6",
+      "name": "PAPAYA",
+      "price": "$105.00",
+      "cart": "",
+      "img": "https://media.istockphoto.com/id/864053288/photo/whole-and-half-of-ripe-papaya-fruit-with-seeds-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hJ5DpNTt0oKjZMIHYV6gUHTntB2zIs_78dPKiuDUXgE=",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "name": "",
+      "price": "",
+      "category": "Fruit",
+      "img": "",
+      "id": "5127dd8c-624a-4d64-88d1-236790408034"
+    },
+    {
+      "name": "AVOCADO",
+      "price": "170",
+      "category": "Fruit",
+      "img": "https://i.vietgiaitri.com/2020/9/28/anh-nhung-loai-trai-cay-ma-nguoi-dang-giam-can-nen-tranh-9fa-5258575.jpg",
+      "createdAt": "2022-12-04T17:44:20.435Z",
+      "updateAt": "2022-12-04T17:44:20.435Z",
+      "id": "OzZHzSg"
+    }
+  ]
+}

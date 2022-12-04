@@ -1,0 +1,90 @@
+.login-page{
+    display: flex;
+    flex-direction: column;
+}
+.login-header{
+    background-color: rgb(255, 251, 251);
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(8, 8, 8);
+}
+.header-login-page {
+  width: auto;
+  height: 130px;
+  background-color:  rgb(66,109,73);
+  text-align: start;
+  padding: 10px 20px;
+.logo-header-login-page {
+
+    .logo-login {
+      width: 110px;
+    }
+  }
+}
+.logos {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%; 
+  margin: 10px 77px;
+}
+.basic {
+    margin: auto;
+  .users-item {
+    margin: 8px auto;
+    padding: 7px 30px;
+    .input-item {
+        padding: 11px 41px;
+        border-radius: 7px;
+        width: 102%;    
+    }
+  }
+  .pass-item input {
+    padding: 9px 31px;
+    border-radius: 7px;
+   
+  }
+}
+.button-item{
+    display: flex;
+    justify-content: center;   
+}
+.btton {
+    color: white;
+    margin: 10px 10px;
+    padding: 14px 28px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(66, 109, 73);
+    cursor: pointer;
+    border: none;
+    height: max-content;
+}
+.title-login{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: fangsong;
+    margin: 30px auto;
+    color: black;
+} 
+.ant-input-affix-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    min-width: 0;
+    padding: 2px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    transition: all 0.3s;
+    display: inline-flex;
+    margin-left: 28px;
+}  

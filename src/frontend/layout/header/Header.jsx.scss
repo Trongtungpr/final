@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(64, 107, 70);
+    .logo {
+        margin: auto 10px;
+    }
+    .logo a {
+        text-decoration: none;
+        
+        .logos{
+            width: 100px;
+            height: 80px;
+            margin: 10px 20px;
+        }
+
+    }
+    .header-list {
+        margin: auto 10px;
+    }
+    .header-list a {
+        margin: auto 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .header-list input {
+        border-radius: 10px;
+        border: none;
+        margin: auto 10px;
+        width: 300px;
+        padding: 10px 20px;
+    }
+    .header-customer{
+        display: flex;
+        margin:  auto 10px;
+        align-items: center;
+        .user-logout{
+            margin:  auto 15px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .header-login {
+            margin:  auto 15px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .header-logout{
+            margin:  auto 15px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .cart {
+            margin:  auto 10px;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+        }
+    }
+}
