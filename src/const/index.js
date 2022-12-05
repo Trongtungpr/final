@@ -1,7 +1,7 @@
 export const ROUTERS = {
   login: "/login",
   home: "/",
-  cart: "/cart",
+  cart: "/checkout/cart",
   product: "/product",
   register:"/register",
   detail: "/detail",

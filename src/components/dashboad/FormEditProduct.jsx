@@ -5,10 +5,11 @@ const FormEditProduct = (props) => {
     const handleFeature = (type) => {
         const Category = document.getElementById("selector-staff").value
         var dataUpdate = {
-            "name" : document.getElementById("inputName").value,
-            "price" : document.getElementById("inputPrice").value,
-            "category" : Category,
-            "img" : document.getElementById("inputlinkimg").value,
+            name : document.getElementById("inputName").value,
+            price : document.getElementById("inputPrice").value,
+            category : Category,
+            desscription : document.getElementById("inputDesscription").value,
+            img : document.getElementById("inputlinkimg").value,
         }
         if(type === "edit") updateProduct(props.product.id,dataUpdate);
         if(type === "add") createProduct(props.product.id,dataUpdate);
@@ -34,9 +35,16 @@ const FormEditProduct = (props) => {
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Price</label>
+                        <label for="inputPrice3" class="col-sm-2 col-form-label">Price</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="inputPrice" placeholder={props.product.price}>
+                            </input>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputDesscription3" class="col-sm-2 col-form-label">Desscription</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputDesscription" placeholder={props.product.desscription}>
                             </input>
                         </div>
                     </div>

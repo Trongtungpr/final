@@ -8,15 +8,18 @@
     margin: 10px 15px;
     align-items: center;
     color: white;
+
     .icon-dashboard {
       padding: 15px;
     }
+
     .title-user {
-      font-size: 20px;
+      font-size: 15px;
       align-items: center;
     }
+
     .title-product {
-      font-size: 20px;
+      font-size: 15px;
       align-items: center;
     }
   }
@@ -25,37 +28,40 @@
 .logo {
   margin-bottom: 2px;
 }
-.trigger {
-  color: white;
-}
+
 .background-sider {
   background-color: rgb(64, 107, 70) !important;
 }
+
 .logo-img {
   margin-left: 60px;
   width: 60px;
 }
+
 .user {
   display: flex;
   align-items: center;
+
   .user-logout {
     margin: 10px 15px;
     font-size: 15px;
     font-weight: bold;
-    color: white;}
-    // cursor: pointer;
-.header-login {
-      cursor: pointer;
-      font-size: 15px;
+    color: white;
+  }
+
+  // cursor: pointer;
+  .header-login {
+    cursor: pointer;
+    font-size: 15px;
     font-weight: bold;
     color: white;
-    }
-.header-logout {
-     
-      font-size: 15px;
+  }
+
+  .header-logout {
+
+    font-size: 15px;
     font-weight: bold;
     color: white;
     cursor: pointer;
-    }
   }
-
+}

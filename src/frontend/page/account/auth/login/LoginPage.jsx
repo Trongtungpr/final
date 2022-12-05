@@ -8,7 +8,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 // import { loginAction } from "../../../stores/slices";
 import "./LoginPage.scss";
 // import { ROUTERS } from "../../../const";
-import { loginAction } from "../../../../../stores/slices";
+import { loginAction } from "../../../../../stores/slices/user.slice";
 import { ROUTERS } from "../../../../../const";
 
 const schema = yup

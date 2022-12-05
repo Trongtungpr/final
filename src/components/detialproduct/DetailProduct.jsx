@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./DetailProduct.scss";
 
 const DetailProduct = (props) => {
@@ -15,11 +15,7 @@ const DetailProduct = (props) => {
           <div class="product-info col-6">
             <div class="product-text">
               <h1>{stateDetailProduct.name}</h1>
-              <p>
-                Harvest Vases are a reinterpretation of peeled fruits and
-                vegetables as functional objects. The surfaces appear to be
-                sliced and pulled aside,allowing room for growth.{" "}
-              </p>
+              <p>{stateDetailProduct.desscription} </p>
             </div>
             <div class="product-price-btn">
               <p>
