@@ -1,66 +1,55 @@
-.form{
-    background-color: white;
-    border-radius: 10px;
-    width: 550px;
-    margin: 70px auto;
-    padding: 20px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    .title {
-        font-size: 28px;
-        font-weight: bold;
-        font-family: ui-serif;
-        text-align: center;
+.form {
+  background-color: white;
+  border-radius: 10px;
+  width: 550px;
+  margin: 70px auto;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: ui-serif;
+    text-align: center;
+  }
+  .form-body {
+    padding: 20px 10px;
+    margin: auto 20px;
+    .form-body > * {
+      padding: 5px;
     }
-    .form-body{
-        padding: 20px 10px;
-        margin: auto 20px ;
-        .form-body > *{
-            padding: 5px;
-        }
-        .form__label{
-            width: 40%;
-        }
-        .form_input{
-            width: 60%;
-        }
+    .form__label {
+      width: 40%;
     }
-    .bt-register{
-        margin: 0 auto;
-        .btn {
-            color: white;
-            padding: 10px 200px;
-            border-radius: 7px;
-            font-weight: bold;
-            font-size: 14px;
-            background-color: rgb(66, 109, 73);
-            cursor: pointer;
-            border: none;
-            
-        }
+    .form_input {
+      width: 60%;
     }
-    
+  }
+  .bt-register {
+    margin: 0 auto;
+    .btn {
+      color: white;
+      padding: 10px 200px;
+      border-radius: 7px;
+      font-weight: bold;
+      font-size: 14px;
+      background-color: rgb(66, 109, 73);
+      cursor: pointer;
+      border: none;
+    }
+  }
+}
+.notification {
+  color: red;
 }
 input, button, select, optgroup, textarea {
-    color: inherit;
-    font-size: inherit;
+    margin: 0;
     font-family: inherit;
+    font-size: inherit;
     line-height: inherit;
-    padding: 7px 50px;
+    padding: 5px 34px;
     border-radius: 7px;
 }
-.notification{
-    color: red;
-  
-}
-
-
-
-
-
-
-
-

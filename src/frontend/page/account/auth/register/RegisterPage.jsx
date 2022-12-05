@@ -3,10 +3,8 @@ import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router";
 import { ROUTERS } from "../../../../../const";
-import { registerAction } from "../../../../../stores/slices";
-import { v4 as uuidv4 } from 'uuid';
-// import { ROUTERS } from "../../../const";
-// import { registerAction } from "../../../stores/slices/register.slice";
+import { registerAction } from "../../../../../stores/slices/register.slice.js";
+import { v4 as uuidv4 } from "uuid";
 import "./RegisterPage.scss";
 
 function RegisterPage(props) {
@@ -64,7 +62,7 @@ function RegisterPage(props) {
           <div className="form-body">
             <div className="username" style={{ margin: "20px auto" }}>
               <label className="form__label" htmlFor="firstName">
-                User Name:{" "}
+                User Name:
               </label>
               <input
                 {...register("name", { required: true })}
@@ -75,7 +73,7 @@ function RegisterPage(props) {
             </div>
             <div className="email" style={{ margin: "20px auto" }}>
               <label className="form__label" htmlFor="email">
-                Email:{" "}
+                Email:
               </label>
               <input
                 {...register("email", { required: true })}
@@ -86,7 +84,7 @@ function RegisterPage(props) {
             </div>
             <div className="password" style={{ margin: "20px auto" }}>
               <label className="form__label" htmlFor="password">
-                Password:{" "}
+                Password:
               </label>
               <input
                 {...register("password", { required: true, minLength: 8 })}
