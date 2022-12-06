@@ -18,7 +18,7 @@ const ViewDetail = () => {
   const FetProduct = useCallback(() => {
     getProduct(param.productid).then((res) => setItemData(res));
   }, [param]);
-
+  
   useEffect(() => {
     FetProduct();
   }, []);

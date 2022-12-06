@@ -7,11 +7,17 @@ import "./Header.jsx.scss";
 import ShopDrop from "../../../components/shop/ShopPage";
 import { Avatar } from "antd";
 import { UserOutlined } from "@ant-design/icons";
+import { getProducOfCartAction } from "../../../stores/actions/cartActions";
 
 function HomeLayoutHeader() {
   const navigate = useNavigate();
   const userInfo = useSelector((state) => state.user.userInfoState.data);
   const dispatch = useDispatch();
+
+  const handleCart = () =>{
+    dispatch(getProducOfCartAction(userInfo.id));
+    navigate(ROUTERS.cart)
+  }
 
   const gotoLoginPage = (e) => {
     navigate(ROUTERS.login);
@@ -66,7 +72,7 @@ function HomeLayoutHeader() {
                 Logout
               </div>
             )}
-            <h3 className="cart">
+            <h3 className="cart" onClick={handleCart}>
               {" "}
               <FaShoppingCart />
             </h3>

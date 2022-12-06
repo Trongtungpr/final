@@ -4,6 +4,7 @@ import { delProduct, getAll, searchProduct } from "../../api/product.api";
 import ViewDetail from "../../frontend/viewdetial/Viewdetail";
 import { getAllProductsAction } from "../../stores/actions/productActions";
 import { getAllUserActions } from "../../stores/actions/userAction";
+import DetailProduct from "../detialproduct/DetailProduct";
 import FormEditProduct from "./FormEditProduct";
 const ContentProductDashBoard = (props) => {
   const [stateDate, setstateData] = useState(false);
@@ -14,6 +15,7 @@ const ContentProductDashBoard = (props) => {
   console.log("data ", stateDate);
   console.log("edit ", stateEdit);
   console.log("add ", stateAdd);
+  console.log("statevoew ", stateView);
 
   const FetProduct = useCallback(() => {
     getAll().then((res) => setstateData(res));
@@ -167,7 +169,7 @@ const ContentProductDashBoard = (props) => {
             {" "}
             Back{" "}
           </button>
-          <ViewDetail product={stateView} type={true} />
+          <DetailProduct product={stateView} type={true} />
         </div>
       )}
     </>

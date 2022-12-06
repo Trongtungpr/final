@@ -3,8 +3,8 @@ import "./DetailProduct.scss";
 
 const DetailProduct = (props) => {
   const [stateDetailProduct, setStateDetailProduct] = useState(props.product);
-  console.log("props", props);
-
+  console.log("props detail", props);
+  
   return (
     <>
       <div class="wrapper">

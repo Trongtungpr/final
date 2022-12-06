@@ -8,7 +8,7 @@ const CartPage = () => {
         <div>
         <Header></Header>
         <div className="container">
-            <Cart></Cart>
+            <Cart/>
         </div>
         <Footer></Footer>
         </div>
