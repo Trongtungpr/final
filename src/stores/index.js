@@ -2,6 +2,7 @@
 
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
+import cartReducer from "./reducers/cartReducer";
 import { mySaga } from "./sagas";
 import { registerReducer } from "./slices";
 import { productReducer } from "./slices/product.slice";
@@ -14,6 +15,7 @@ const rootReducer = {
   user: userReducer,
   product: productReducer,
   register: registerReducer,
+  cart: cartReducer,
 };
 
 export const appStore = configureStore({

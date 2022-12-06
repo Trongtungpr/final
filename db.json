@@ -129,6 +129,27 @@
       "email": "tungle@gmail.com",
       "password": "$2a$10$gBYIAbhEBtDHzStFgFKJh.p/asVFehkGJ9v6BHm6pSjPTxWasXMp6",
       "id": 28
+    },
+    {
+      "email": "tungle12@gmail.com",
+      "password": "$2a$10$hzfQnElJPHZrSy.ueE/aI.xukw3G3uZvoASLHqLWWEvpsjZqKiTwi",
+      "id": 29,
+      "cart": "12345"
+    },
+    {
+      "email": "truonghh@gmail.com",
+      "password": "$2a$10$DJdmC2sAuBec2k9Fh3Vik.BEKGbLk90.aN9NGMIYHCa1SYYkGx1fy",
+      "id": 30
+    },
+    {
+      "email": "truonghhh@gmail.com",
+      "password": "$2a$10$YA9sh2xXMX6LkGjaidYw.Oz1BFCinow7LQwO.VBJADSRYu3gtMfhC",
+      "id": 31
+    },
+    {
+      "email": "truonghhhh@gmail.com",
+      "password": "$2a$10$IfX7ccJrRQMUQuebVSZgeeT5CdqlWNxYKxMeY6oGTKYPKhnDZe8WS",
+      "id": 32
     }
   ],
   "product": [
@@ -266,10 +287,19 @@
       "img": "https://media.istockphoto.com/id/864053288/photo/whole-and-half-of-ripe-papaya-fruit-with-seeds-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hJ5DpNTt0oKjZMIHYV6gUHTntB2zIs_78dPKiuDUXgE=",
       "cacategory": "",
       "like": ""
+    }
+  ],
+  "cart": [
+    {
+      "name": "",
+      "price": "",
+      "category": "Fruit",
+      "img": "",
+      "id": "5127dd8c-624a-4d64-88d1-236790408034"
     },
     {
       "name": "AVOCADO",
-      "price": "$170.000",
+      "price": "170",
       "category": "Fruit",
       "img": "https://i.vietgiaitri.com/2020/9/28/anh-nhung-loai-trai-cay-ma-nguoi-dang-giam-can-nen-tranh-9fa-5258575.jpg",
       "createdAt": "2022-12-04T17:44:20.435Z",

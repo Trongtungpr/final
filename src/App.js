@@ -8,6 +8,7 @@ import { ProtectedRoute } from "./router/ProtectedRoute";
 import ProductList from "./components/productlist/ProductList";
 import ViewDetail from "./frontend/viewdetial/Viewdetail";
 import DashBoard from "./frontend/page/dashboard/DashBoard";
+import CartPage from "./frontend/page/cart/CartPage";
 
 // This is a components
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           {/* Customer Router */}
+          <Route path={"/cart"} element={<CartPage />} />
           <Route path={ROUTERS.home} element={<HomePage />} />
           <Route
             path={ROUTERS.product}
@@ -44,7 +46,6 @@ const App = () => {
               </ProtectedRoute>
             }
           />
-          
           {/* Staff Router */}
           {/* <Route
             path={"/staff/product"}

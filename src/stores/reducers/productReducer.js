@@ -7,6 +7,7 @@ const initiaState = {
 }
 
 const productReducer = (state = initiaState,action) =>{
+    console.log("action",action.type)
     switch(action.type){
         case actions.GET_ALL_PRODUCT :
             return {

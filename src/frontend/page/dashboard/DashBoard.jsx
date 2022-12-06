@@ -18,6 +18,7 @@ import { logoutAction } from "../../../stores/slices";
 const { Header, Sider, Content } = Layout;
 
 const DashBoard = () => {
+  const [collapsed, setCollapsed] = useState(false);
   const [useStateContent, setStateContent] = useState();
   const userInfo = useSelector((state) => state.user.userInfoState.data);
   const dispatch = useDispatch();
@@ -37,30 +38,48 @@ const DashBoard = () => {
   const onLogout = () => {
     dispatch(logoutAction());
   };
+  const onHome = () => {
+    navigate(ROUTERS.home);
+  };
   return (
     <Layout className="background-sider">
       <Sider className="background-sider">
         <div className="logo">
           <img
+            onClick={onHome}
             className="logo-img"
             src={require("../../../assets/images/Plantiful Garden Logo.gif")}
-          />
+          ></img>
         </div>
         <Menu class="content-dashboard background-sider">
           <a class="selector-dashboard" onClick={handleSelectorUser}>
             <UserOutlined className="icon-dashboard" />
-            <h1 className="title-user">User</h1>
+            <h1>User</h1>
           </a>
           <a class="selector-dashboard" onClick={handleSelectorProduct}>
             <TableOutlined className="icon-dashboard" />
-            <h1 className="title-product">Product</h1>
+            <h1>Product</h1>
           </a>
         </Menu>
       </Sider>
       <Layout className="site-layout">
-        <Header className="site-layout-background background-sider">
+        <Header
+          className="site-layout-background background-sider"
+          style={{
+            padding: 0,
+          }}
+        >
           <Row>
-            <Col md={8}>
+            <Col md={18}>
+              {/* {React.createElement(
+                collapsed ? MenuUnfoldOutlined : MenuFoldOutlined,
+                {
+                  className: "trigger",
+                  onClick: () => setCollapsed(!collapsed),
+                }
+              )} */}
+            </Col>
+            <Col md={6}>
               <div className="user">
                 <Avatar
                   className="ant-avatar"

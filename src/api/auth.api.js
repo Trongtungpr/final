@@ -47,6 +47,6 @@ export const delUser = async (id) => {
    });
 }
 export const searchUser = async (email) => {
-   console.log("call search",URL_API+'/user'+"?email_like="+email);
-   return await axios.get(URL_API+'/user'+"?email_like="+email);
+   console.log("call search",URL_API+'/users'+"?email_like="+email);
+   return await axios.get(URL_API+'/users'+"?email_like="+email);
 }
