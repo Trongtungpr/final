@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "email": "trongtungpr@gmail.com",
-      "password": "$2a$10$aG8Ah3DSJ3y/k.biBO1n1uzzVRMVRY0wnXt37ay4fGtL7aKDDMS1i",
-      "createdAt": "2022-10-31T13:00:52.766Z",
-      "updateAt": "2022-10-31T13:00:52.766Z",
-      "id": 1
-    },
-    {
       "email": "trongtung@gmail.com",
       "password": "$2a$10$u/Xo7a6Jq4.xRAjmeRq87ufstOPwN00T5ySPUdCOSuRQh/bi5SYHu",
       "createdAt": "2022-10-31T13:09:27.099Z",
@@ -323,6 +316,15 @@
       "price": "105.00",
       "cart": "",
       "img": "https://media.istockphoto.com/id/864053288/photo/whole-and-half-of-ripe-papaya-fruit-with-seeds-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hJ5DpNTt0oKjZMIHYV6gUHTntB2zIs_78dPKiuDUXgE=",
+      "cacategory": "",
+      "like": ""
+    },
+    {
+      "id": "e7110771-58e5-4785-88cc-1200cc889248",
+      "name": "MELON",
+      "price": "$125.000",
+      "cart": "",
+      "img": "https://media.istockphoto.com/id/882818032/photo/whole-and-half-with-slice-of-japanese-melons-orange-melon-or-cantaloupe-melon-isolated-on.jpg?s=612x612&w=0&k=20&c=vFBEUBH2kyrPE9CSIgsc6neyFP0x3XiGOJDfOVynq8o=",
       "cacategory": "",
       "like": ""
     }

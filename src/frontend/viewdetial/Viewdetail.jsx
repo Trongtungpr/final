@@ -14,7 +14,7 @@ const ViewDetail = () => {
   const dispatch = useDispatch();
 
   const param = useParams();
-  console.log("itemData",itemData);
+  console.log("itemData", itemData);
   const FetProduct = useCallback(() => {
     getProduct(param.productid).then((res) => setItemData(res));
   }, [param]);
@@ -29,9 +29,9 @@ const ViewDetail = () => {
       </header>
       <main>
         <div className="container">
+          <h1 className="title-h1">Product</h1>
           {itemData != false && (
             <div>
-              <h1>Product</h1>
               <DetailProduct product={itemData.data} />
             </div>
           )}
