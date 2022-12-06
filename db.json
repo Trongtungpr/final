@@ -135,7 +135,7 @@
     {
       "id": "448ec1cd-1403-4006-bb98-574176627f3d",
       "name": "BELL PEPPER",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-1.jpg",
       "cacategory": "",
@@ -144,7 +144,7 @@
     {
       "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
       "name": "STRAWBERRY",
-      "price": "$120.00",
+      "price": "$110.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-2.jpg",
       "cacategory": "",
@@ -153,7 +153,7 @@
     {
       "id": "90114e33-aa30-4764-8587-bd3f9a3eda64",
       "name": "GREEN BEANS",
-      "price": "$120.00",
+      "price": "$130.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-3.jpg",
       "cacategory": "",
@@ -162,7 +162,7 @@
     {
       "id": "79d79917-c9af-4806-ab0e-587a2bf63758",
       "name": "PURPLE CABBAGE",
-      "price": "$120.00",
+      "price": "$121.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-4.jpg",
       "cacategory": "",
@@ -171,7 +171,7 @@
     {
       "id": "72cb1145-c681-495b-a4da-248cebdb6bf0",
       "name": "TOMATOE",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-5.jpg",
       "cacategory": "",
@@ -180,7 +180,7 @@
     {
       "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
       "name": "BROCOLLI",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-6.jpg",
       "cacategory": "",
@@ -189,7 +189,7 @@
     {
       "id": "00d09550-bda6-4328-8c82-65e5a4f9bcce",
       "name": "CARROTS",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-7.jpg",
       "cacategory": "",
@@ -198,7 +198,7 @@
     {
       "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
       "name": "FRUIT JUICE",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-8.jpg",
       "cacategory": "",
@@ -207,7 +207,7 @@
     {
       "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
       "name": "ONION",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-9.jpg",
       "cacategory": "",
@@ -216,7 +216,7 @@
     {
       "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
       "name": "APPLE",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-10.jpg",
       "cacategory": "",
@@ -225,7 +225,7 @@
     {
       "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
       "name": "GARLIC",
-      "price": "$120.00",
+      "price": "$120.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-11.jpg",
       "cacategory": "",
@@ -234,7 +234,7 @@
     {
       "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
       "name": "CHILLI",
-      "price": "$95.00",
+      "price": "$95.000",
       "cart": "",
       "img": "https://technext.github.io/vegefoods/images/product-12.jpg",
       "cacategory": "",
@@ -243,7 +243,7 @@
     {
       "id": "3ff15b36-a038-4de9-94df-6a9a9b49f343",
       "name": "WATERMELON",
-      "price": "$85.00",
+      "price": "$85.000",
       "cart": "",
       "img": "https://media.istockphoto.com/id/937363912/photo/whole-and-slices-watermelon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jYBgMThOJ1nPe6QuJA9bp_IR9VgJy3quEUa5Y2l4imQ=",
       "cacategory": "",
@@ -252,7 +252,7 @@
     {
       "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
       "name": "BANANA",
-      "price": "$75.00",
+      "price": "$75.000",
       "cart": "",
       "img": "https://media.istockphoto.com/id/1184345169/photo/banana.jpg?s=612x612&w=0&k=20&c=NdHyi6Jd9y1855Q5mLO2tV_ZRnaJGtZGCSMMT7oxdF4=",
       "cacategory": "",
@@ -261,22 +261,15 @@
     {
       "id": "234e2f86-7b81-4571-bee9-546a8785d6f6",
       "name": "PAPAYA",
-      "price": "$105.00",
+      "price": "$105.000",
       "cart": "",
       "img": "https://media.istockphoto.com/id/864053288/photo/whole-and-half-of-ripe-papaya-fruit-with-seeds-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hJ5DpNTt0oKjZMIHYV6gUHTntB2zIs_78dPKiuDUXgE=",
       "cacategory": "",
       "like": ""
     },
     {
-      "name": "",
-      "price": "",
-      "category": "Fruit",
-      "img": "",
-      "id": "5127dd8c-624a-4d64-88d1-236790408034"
-    },
-    {
       "name": "AVOCADO",
-      "price": "170",
+      "price": "$170.000",
       "category": "Fruit",
       "img": "https://i.vietgiaitri.com/2020/9/28/anh-nhung-loai-trai-cay-ma-nguoi-dang-giam-can-nen-tranh-9fa-5258575.jpg",
       "createdAt": "2022-12-04T17:44:20.435Z",
