@@ -9,42 +9,42 @@
     .content-img {
       height: max-content;
       width: 400px;
-      margin: 70px 20px ;
+      margin: 70px 20px;
     }
   }
-  .product-info{
-display: flex;
-flex-direction: column;
-.product-text h1{
-font-weight: bold;
-margin: 50px 50px;
-color: black;
-}
-.product-text p{
-    margin: 30px 50px;
-    font-size: 20px;
-    color: black;
-    font-family: fangsong;
-  }
-}
-.product-price-btn{
+  .product-info {
     display: flex;
     flex-direction: column;
-    .price-detail{
-        font-weight: bold;
-margin: 10px 50px;
-font-size: 30px;
-    color: black;
+    .product-text h1 {
+      font-weight: bold;
+      margin: 50px 50px;
+      color: black;
     }
-    .button-buy{
-        background-color: rgb(40, 175, 175);
-        color: white;
-        border-radius: 10px ;
-        margin: 10px 50px;
-        border: none;
-        font-size: 25px;
-        font-weight: bold;
-        padding: 10px 20px ;
+    .product-text p {
+      margin: 30px 50px;
+      font-size: 20px;
+      color: black;
+      font-family: fangsong;
     }
-}
+  }
+  .product-price-btn {
+    display: flex;
+    flex-direction: column;
+    .price-detail {
+      font-weight: bold;
+      margin: 10px 50px;
+      font-size: 30px;
+      color: black;
+    }
+    .button-buy {
+      background-color: rgb(40, 175, 175);
+      color: white;
+      border-radius: 10px;
+      margin: 10px 50px;
+      border: none;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 12px 20px;
+    }
+  }
 }

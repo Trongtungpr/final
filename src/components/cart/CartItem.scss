@@ -12,7 +12,9 @@ $color-label: #aaa;
 $font-default: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
 
-
+.product{
+    margin: 50px 20px;
+}
 /* Global "table" column settings */
 .product-image {
     float: left;
