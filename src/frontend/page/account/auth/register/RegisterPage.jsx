@@ -20,15 +20,18 @@ function RegisterPage(props) {
       email: "",
       password: "",
       confirmPassword: "",
-      cart:"",
+      cart:[],
+      createdAt: new Date(),
+      isStaff: false,
+      isAdmin: false
     },
   });
 
   const onSubmit = (data) => {
-    const {id, name, email, password, confirmPassword, cart } = data;
+    const {id, name, email, password, confirmPassword, cart, createdAt,isAdmin,isStaff} = data;
 
     // Check if form have any empty input
-    const isValidatedForm = id || name || email || password || confirmPassword || cart;
+    const isValidatedForm = id || name || email || password || confirmPassword || cart || createdAt|| isAdmin || isStaff;
 
     if (isValidatedForm && password === confirmPassword) {
       dispatch(registerAction(data));

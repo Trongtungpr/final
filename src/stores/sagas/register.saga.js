@@ -12,6 +12,11 @@ function* register(action) {
     const response = yield AuthAPI.register({
       email: registerPayload.email,
       password: registerPayload.password,
+      cart: registerPayload.cart,
+      id: registerPayload.id,
+      createdAt: registerPayload.createdAt,
+      isStaff: registerPayload.isStaff,
+      isAdmin: registerPayload.isAdmin,
     });
 
     yield put(registerActionSuccess(response.data.user));

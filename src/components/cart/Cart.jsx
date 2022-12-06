@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React, { useCallback, useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getProduct } from "../../api/product.api";
+import { getProducOfCartAction } from "../../stores/actions/cartActions";
 import CartItem from "./CartItem";
 
 
-const Cart = () => {
-    const stateCart = useSelector(state => state.cart)
-    const [dataState,setDateState] = useState(stateCart)
-    console.log("stateCart",dataState)
+const Cart = (props) => {
+
     return (
         <div class="bg-light my-5">
             <h1>Shopping Cart</h1>
-
+            <button>dd</button>
             <div class="shopping-cart">
                 <div class="column-labels">
                     <label class="product-image">Image</label>
@@ -20,7 +20,11 @@ const Cart = () => {
                     <label class="product-removal">Remove</label>
                     <label class="product-line-price">Total</label>
                 </div>
-                <CartItem CartItem={{name:"truong",img:"https://media.istockphoto.com/id/1184345169/photo/banana.jpg?s=612x612&w=0&k=20&c=NdHyi6Jd9y1855Q5mLO2tV_ZRnaJGtZGCSMMT7oxdF4=",price:"100"}} />
+                {props.data.map((item)=>(
+                    <div class="my-2">
+                        <CartItem CartItem={item}></CartItem>
+                    </div>
+                ))}
 
             </div>
             <div class="totals">
