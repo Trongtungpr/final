@@ -1,9 +1,9 @@
-import { Header } from "antd/es/layout/layout";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Cart from "../../../components/cart/Cart";
 import { getProducOfCartAction } from "../../../stores/actions/cartActions";
 import Footer from "../../layout/footer/Footer";
+import HomeLayoutHeader from "../../layout/header/Header";
 
 const CartPage = () => {
     const user = useSelector(state => state.user.userInfoState)
@@ -15,7 +15,7 @@ const CartPage = () => {
 
     return (
         <div>
-        <Header></Header>
+            <HomeLayoutHeader/>
         <div className="container">
             { cart != false &&
             (<Cart data={cart}/>)}

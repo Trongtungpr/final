@@ -162,24 +162,203 @@
       "isAdmin": "false"
     },
     {
-      "email": "trongtung11prdn@gmail.com",
-      "password": "$2a$10$JLT16V44BPGt/9LafnCeDeSQKX7QR277prqQpSjJSNec3PxYKp0tC",
-      "cart": [
-      ],
-      "id": "fdc67a70-f685-4c42-9dd4-10dfe1522040",
-      "createdAt": "2022-12-06T15:34:31.545Z",
-      "isStaff": "false",
-      "isAdmin": "false"
-    },
-    {
       "email": "truong123@gmail.com",
-      "password": "$2a$10$Gqe058eo5b2MdMSlnfDn4OTNcvN1nrDmXTjWZcrY3acKtD297wUTq",
       "cart": [
-        {"id":"00d09550-bda6-4328-8c82-65e5a4f9bcce", "quantity":2},
-        {"id":"72cb1145-c681-495b-a4da-248cebdb6bf0", "quantity":2}
+        {
+          "id": "00d09550-bda6-4328-8c82-65e5a4f9bcce",
+          "quantity": 2
+        },
+        {
+          "id": "72cb1145-c681-495b-a4da-248cebdb6bf0",
+          "quantity": 2
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+          "quantity": 1
+        },
+        {
+          "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+          "quantity": 1
+        },
+        {
+          "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+          "quantity": 1
+        },
+        {
+          "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+          "quantity": 1
+        },
+        {
+          "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+          "quantity": 1
+        },
+        {
+          "id": "79d79917-c9af-4806-ab0e-587a2bf63758",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "2c4f020c-367a-49db-bc3d-8883ebeb7fee",
+          "quantity": 1
+        },
+        {
+          "id": "234e2f86-7b81-4571-bee9-546a8785d6f6",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "a8128a3b-4822-4075-9f47-ca968efd8778",
+          "quantity": 1
+        },
+        {
+          "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+          "quantity": 1
+        },
+        {
+          "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+          "quantity": 1
+        },
+        {
+          "id": "90114e33-aa30-4764-8587-bd3f9a3eda64",
+          "quantity": 1
+        }
       ],
       "id": "6d2ff327-3a80-4d32-9063-a2f527380692",
       "createdAt": "2022-12-06T15:35:59.701Z",
+      "isStaff": false,
+      "isAdmin": false
+    },
+    {
+      "email": "truong46bi@gmail.com",
+      "password": "$2a$10$Gmc05o0jnvzH3T4IyYjBX.YARYubpEmJ4T8VF.EnlnuCWJrK3yxZq",
+      "cart": [
+        {
+          "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+          "quantity": 1
+        },
+        {
+          "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+          "quantity": 1
+        },
+        {
+          "id": "90114e33-aa30-4764-8587-bd3f9a3eda64",
+          "quantity": 1
+        },
+        {
+          "id": "72cb1145-c681-495b-a4da-248cebdb6bf0",
+          "quantity": 1
+        },
+        {
+          "id": "72cb1145-c681-495b-a4da-248cebdb6bf0",
+          "quantity": 1
+        },
+        {
+          "id": "ede329df-52dc-49ef-b6d2-c95d3fd3500d",
+          "quantity": 1
+        },
+        {
+          "id": "00d09550-bda6-4328-8c82-65e5a4f9bcce",
+          "quantity": 1
+        }
+      ],
+      "id": "2d7b8882-f764-430a-98bc-ec80c0630dfc",
+      "createdAt": "2022-12-07T10:08:25.731Z",
+      "isStaff": false,
+      "isAdmin": false
+    },
+    {
+      "email": "truong47bi@gmail.com",
+      "password": "$2a$10$ytZFiWWfryYIXXk0lka0muPhZhpsj0JTDk/x6.p./YptqF0WT0DSG",
+      "cart": [
+        {
+          "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+          "quantity": 1
+        },
+        {
+          "id": "90114e33-aa30-4764-8587-bd3f9a3eda64",
+          "quantity": 1
+        },
+        {
+          "id": "79d79917-c9af-4806-ab0e-587a2bf63758",
+          "quantity": 1
+        },
+        {
+          "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+          "quantity": 1
+        }
+      ],
+      "id": "a989efee-5b01-4053-80aa-203681dc9fa1",
+      "createdAt": "2022-12-07T10:18:06.443Z",
       "isStaff": false,
       "isAdmin": false
     }

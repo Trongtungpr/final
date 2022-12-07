@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProductsAction } from "../../stores/slices/product.slice";
 // import { getProductsAction } from "../../../../../../stores/slices/product.slice";
@@ -11,12 +11,12 @@ import "./ProductList.scss";
 function ProductList(props) {
   const dispatch = useDispatch();
   const productState = useSelector((state) => state.product);
+  const [Data,setData] = useState(productState)
   const { activeCategory } = props;
 
   useEffect(() => {
     dispatch(getProductsAction());
   }, []);
-
   return (
     <>
     <div className="title-product"><h1>Sản Phẩm</h1></div>

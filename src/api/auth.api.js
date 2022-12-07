@@ -8,7 +8,7 @@ export const AuthAPI = {
 
 export const getUserById = async (id) =>{
    try {
-      return await axios.get(URL_API+'/users'+'/'+id);
+        return await axios.get(URL_API+'/users'+'/'+id);
   }
   catch(e){
       return;

@@ -4,7 +4,7 @@ import "./DetailProduct.scss";
 const DetailProduct = (props) => {
   const [stateDetailProduct, setStateDetailProduct] = useState(props.product);
   console.log("props", props);
-
+  
   return (
     <>
       <div class="wrapper">
@@ -15,6 +15,7 @@ const DetailProduct = (props) => {
           <div class="product-text">
             <h1>{stateDetailProduct.name}</h1>
             <p>
+            {stateDetailProduct.desscription}
               Harvest Vases are a reinterpretation of peeled fruits and
               vegetables as functional objects.<br></br> The surfaces appear to
               be sliced and pulled aside,allowing room for growth.

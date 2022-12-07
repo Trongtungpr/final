@@ -25,7 +25,7 @@ const CartItem = (props) => {
     }
     return (
         <>
-            {stateData != false &&(<div class="product">
+            {stateData != false && stateData!= [] &&(<div class="product">
                 <div class="product-image">
                     <img src={stateData.data.img} alt="" />
                 </div>
@@ -47,7 +47,8 @@ const CartItem = (props) => {
                     <button class="remove-product">Remove</button>
                 </div>
                 <div class="product-line-price" id={"product-line-price"+props.CartItem.id}>{parseFloat(stateData.data.price)*stateQuantity}</div>
-            </div>)}
+            </div>)
+            }
         </>
     );
 };
