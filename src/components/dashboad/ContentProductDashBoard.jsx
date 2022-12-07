@@ -25,6 +25,7 @@ const ContentProductDashBoard = (props) => {
   useEffect(() => {
     FetProduct();
   }, []);
+  //lấy sản phẩm giống hoặc gần giống
   const dataSearch = useCallback(() => {
     console.log("value search", document.getElementById("search-user").value);
     searchProduct(document.getElementById("search-user").value).then((res) =>
@@ -37,6 +38,7 @@ const ContentProductDashBoard = (props) => {
     dispath(getAllProductsAction());
     FetProduct();
   };
+  // lấy toàn bộ trường id, name, category .....
   const handleEdit = (id, name, category, desscription, price, img) => {
     setStateEdit({
       id: id,

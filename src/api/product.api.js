@@ -15,7 +15,7 @@ export const getProduct = async (slug) => {
 export const getAll= async () =>{
   return await axios.get(URL_API+ '/product');
 }
-
+//lấy sản phẩm gần giống tên hoặc là giống//
 export const searchProduct = async (name) =>{
   try {
       return await axios.get(URL_API+ '/product'+'?name_like='+name);

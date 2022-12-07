@@ -12,7 +12,6 @@ const ContentUserDashBoard = () => {
     const [stateDate,setstateData] = useState(false);
     const [stateEdit,setStateEdit] = useState(false);
     const [stateAdd,setStateAdd] = useState(false)
-    const dispatch = useDispatch() 
     console.log("stateDate",stateDate)
     const FetUser = useCallback(() => {
         getAllUser().then(res =>
@@ -31,7 +30,6 @@ const ContentUserDashBoard = () => {
 
     const handleDel = (id) => {
         delUser(id)
-        dispatch(getAllUserActions())
         FetUser()
     }
     const handleEdit = (id,email,password) => {
@@ -58,7 +56,7 @@ const ContentUserDashBoard = () => {
                         <input id="search-user" class="mx-2" type="text"></input>
                         <button class="btn btn-dark" onClick={handleSearch}> OK</button>
                     </div>
-                    <button class="btn btn-dark" onClick={handleAdd}> Add Item</button>
+                   {stateEdit !== false && (<button class="btn btn-dark" onClick={handleAdd}> Add Item</button>)} 
                 </div>
             </div>
             {(stateEdit ===false && stateAdd ===false) && (<div class="row full-height">

@@ -8,7 +8,7 @@ const HomePage = (props) => {
     <>
       <header>
         <HomeLayoutHeader />
-        <HeaderSlider />
+        {props.type != "product" && (<HeaderSlider />)}
       </header>
       <div className="home-content-wrapper">{props.content}</div>
       {/* <main classname="py-5">
