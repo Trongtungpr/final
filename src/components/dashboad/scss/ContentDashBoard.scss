@@ -4,3 +4,12 @@
 #search-user{
     border-radius: 15px;
 }
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .row{
+    max-width: 100%;
+  }
+  

@@ -1,4 +1,4 @@
-import { put, takeEvery, delay } from "redux-saga/effects";
+import { put, takeEvery } from "redux-saga/effects";
 import { ProductAPI } from "../../api/product.api";
 import { GET_VIEW_DETAIL_PRODUCT } from "../constants/actionType";
 import { getDetailProductsFailed, getDetailProductsSuccess } from "../slices/detailproduct.slice";
