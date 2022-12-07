@@ -6,6 +6,8 @@ import { getAllProductsAction } from "../../stores/actions/productActions";
 import { getAllUserActions } from "../../stores/actions/userAction";
 import DetailProduct from "../detialproduct/DetailProduct";
 import FormEditProduct from "./FormEditProduct";
+import "./scss/FormEditUser.scss";
+
 const ContentProductDashBoard = (props) => {
   const [stateDate, setstateData] = useState(false);
   const [stateEdit, setStateEdit] = useState(false);

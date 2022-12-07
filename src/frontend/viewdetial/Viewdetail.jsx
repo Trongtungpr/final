@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { useDispatch, useSelector } from "react-redux";
+// import { useDispatch } from "react-redux";
 
 import { useParams } from "react-router-dom";
 import "./Viewdetail.scss";
@@ -11,14 +11,14 @@ import Footer from "../layout/footer/Footer";
 
 const ViewDetail = () => {
   const [itemData, setItemData] = useState(false);
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const param = useParams();
   console.log("itemData", itemData);
   const FetProduct = useCallback(() => {
     getProduct(param.productid).then((res) => setItemData(res));
   }, [param]);
-  
+
   useEffect(() => {
     FetProduct();
   }, []);

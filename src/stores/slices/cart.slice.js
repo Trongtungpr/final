@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { notification } from "antd";
+
 
 const USER_INFO_KEY = "USER_INFO";
 

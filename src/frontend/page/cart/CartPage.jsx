@@ -5,17 +5,17 @@ import { getProducOfCartAction } from "../../../stores/actions/cartActions";
 import Footer from "../../layout/footer/Footer";
 import HomeLayoutHeader from "../../layout/header/Header";
 
-const CartPage = () => {
-    const user = useSelector(state => state.user.userInfoState)
-    const cart = useSelector(state => state.cart.cart)
-    const dispatch = useDispatch()
-    useEffect(()=>{
-        dispatch(getProducOfCartAction(user.data))
-    },[])
+const CartPage = (props) => {
+  const user = useSelector((state) => state.user.userInfoState);
+  const cart = useSelector((state) => state.cart.cart);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getProducOfCartAction(user.data));
+  }, []);
 
     return (
         <div>
-            <HomeLayoutHeader/>
+        <HomeLayoutHeader/>
         <div className="container">
             { cart != false &&
             (<Cart data={cart}/>)}
